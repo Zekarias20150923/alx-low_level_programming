@@ -1,6 +1,7 @@
 #include <stdio.h>
-/**printing lowercase letters
- *return:always (success)
+/**
+ * printing lowercase letters
+ *return:always 0 (success)
  **/
 int main(void)
 {
