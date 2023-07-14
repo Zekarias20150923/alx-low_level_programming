@@ -13,7 +13,7 @@ int main(void)
 		c++;
 
 	}
-	while (d <= 'A')
+	while (d <= 'Z')
 	{
 		putchar(d);
 		d++;
