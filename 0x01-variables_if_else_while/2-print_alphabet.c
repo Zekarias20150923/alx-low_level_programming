@@ -2,8 +2,8 @@
 /**printing lowercase letters
  *return:always (success)
  */
-char main(void)
+int main(void)
 {
-	putchar("abcdefghijklmnopqrstuvwxyz\n");
+	putchar((int)"abcdefghijklmnopqrstuvwxyz\n");
 	return();
 }
