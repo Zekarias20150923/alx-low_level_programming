@@ -5,5 +5,5 @@
 int main(void)
 {
 	putchar((int)"abcdefghijklmnopqrstuvwxyz\n");
-	return();
+	return(0);
 }
