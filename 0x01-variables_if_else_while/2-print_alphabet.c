@@ -4,7 +4,6 @@
  */
 int main(void)
 {
-	char d='abcdefghijklmnopqrstuvwxyz';
-	putchar(d);
+	putchar("abcdefghijklmnopqrstuvwxyz\n");
 	return(0);
 }
