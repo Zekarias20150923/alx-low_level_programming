@@ -1,8 +1,9 @@
 #include <stdio.h>
 /**
- * printing lowercase letters
- *return:always (success)
- **/
+ * main- Entry point
+ * Return: always 0 (success)
+ */
+
 int main(void)
 {
 	char c;
