@@ -8,8 +8,10 @@ int main(void)
 
 	c = 'a';
 	while (c <='z');
+	{
 	 c++;
 	putchar(c);
 	putchar("\n");
+	}
 	return (0);
 }
