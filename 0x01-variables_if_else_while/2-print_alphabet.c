@@ -4,6 +4,12 @@
  */
 int main(void)
 {
-	putchar((int)"abcdefghijklmnopqrstuvwxyz\n");
-	return(0);
+	char c;
+
+	c = 'a';
+	while (c <='z');
+	 c++;
+	putchar(c);
+	putchar("\n");
+	return (0);
 }
