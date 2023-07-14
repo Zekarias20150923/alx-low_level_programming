@@ -13,19 +13,9 @@ int main(void)
         {
         putchar(c);
         c++;
+	if (c == e || c == q)
+		c++;
         }
-	c++;
-	while (c <= 'p')
-	{
-		putchar(c);
-		c++;
-	}
-	c++;
-	while (c <='z')
-	{
-		putchar(c);
-		c++;
-	}
 
         putchar('\n');
         return (0);
