@@ -9,11 +9,24 @@ int main(void)
         char c;
 
         c = 'a';
-        while (c <= 'z' && c != 'e' && c != 'q')
+        while (c <= 'd')
         {
         putchar(c);
         c++;
         }
+	c++;
+	while (c <= 'p')
+	{
+		putchar(c);
+		c++;
+	}
+	c++;
+	while (c <='z')
+	{
+		putchar(c);
+		c++;
+	}
+
         putchar('\n');
         return (0);
 }
